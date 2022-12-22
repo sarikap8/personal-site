@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(to left top, rgb(69, 109, 218), rgb(202, 138, 227));
     background-attachment: fixed;
+    text-align: center;
   }
 
   ul {
@@ -21,9 +22,26 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: cursive;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: rgb(159, 126, 187);
+  }
+
+  h1 {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+  }
+
+  .contact a{
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+  }
+
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
   }
